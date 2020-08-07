@@ -20,6 +20,5 @@ namespace EurekaReyExtension.Models.Empresa
         public String Email { get; set; }
         public DateTime CreateDate { get; set; }
         public Boolean State { get; set; }
-        public String Eliminar { get; set; }
     }
 }

@@ -5,7 +5,10 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Data\Modelos\" />
+    <Compile Remove="Data\Modelos\**" />
+    <Content Remove="Data\Modelos\**" />
+    <EmbeddedResource Remove="Data\Modelos\**" />
+    <None Remove="Data\Modelos\**" />
   </ItemGroup>
 
 </Project>
